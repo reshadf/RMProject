@@ -1,0 +1,497 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	background: url(../img/newyork.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-color: #000;
+}
+
+header h1 {
+	font-size: 0.8em;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+	color: #fff;
+	margin-top: 20px;
+}
+
+.main {
+	border: 2px #fff solid;
+	color: #fff;
+	width: 500px;
+	height: 480px;
+	position: fixed;
+	padding: 10px;
+	background: url(../img/newyork-blurry.jpg) no-repeat center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.contentblock {
+	border: 2px #fff solid;
+	width: 500px;
+	min-height: 150px;
+	position: relative;
+	padding: 10px;
+	margin-left: 60%;
+	margin-top: 20px;
+	background: url(../img/newyork-blurry.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.contentblock:nth-last-child(1) {
+	margin-bottom: 105px;
+}
+
+.contentblock p {
+	position: relative;
+	width: 500px;
+	height: auto;
+	color: #fff;
+}
+
+.contentblock time {
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	font: normal 0.8em "Helvetica", Helvetica;
+}
+
+.contentblock h2,h3,h4,h5,h6 {
+	color: #fff;
+}
+
+.content {
+	border: 2px #fff solid;
+	width: 1000px;
+	position: relative;
+	margin-top: 40px;
+	padding: 10px;
+	min-height: 500px;
+	background: url(../img/newyork-blurry.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	margin-bottom: 105px;
+}
+
+.content p {
+	position: relative;
+	width: 800px;
+	height: auto;
+	color: #fff;
+}
+
+.content time {
+	color: #fff;
+	position: absolute;
+	top: 5px;
+	right: 15px;
+	font: normal 0.8em "Helvetica", Helvetica;
+}
+
+.content h2,h3,h4,h5,h6 {
+	color: #fff;
+}
+
+.portfolio {
+	border: 2px #fff solid;
+	width: 900px;
+	position: relative;
+	margin-top: 40px;
+	padding: 10px;
+	min-height: 500px;
+	background: url(../img/newyork-blurry.jpg) no-repeat center center fixed;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+
+	margin-bottom: 105px;
+	margin-bottom: 105px;
+}
+
+.portfolio p
+{
+	position: relative;
+	width: 800px;
+	height: auto;
+	color: #fff;
+}
+
+.navigation {
+	font: normal 13px "helvetica", helvetica;
+	text-transform: uppercase;
+	position: relative;
+	height: 65px;
+}
+
+.navigation li {
+	float: left;
+	text-align: center;
+	line-height: 55px;
+	padding: 5px;
+	width: 150px;
+	border-right: 2px solid #333;
+}
+
+.navigation a {
+	color: #000;
+	font: bold 1.2em "Helvetica", Helvetica;
+	text-decoration: none;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.navigation a:hover {
+	color: #fff;
+}
+
+.navigation {
+	position: fixed;
+	bottom: 20px;
+	left: 142px;
+	z-index: 80;
+	width: 100%;
+	line-height: 6px;
+}
+
+.navigation {
+	height: 65px;
+	background: #FF8800;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	padding: 7px 0 0 7px bottom:  50px;
+}
+
+#webtitle {
+	position: fixed;
+	left: 0;
+	bottom: 20px;
+	width: 140px;
+	z-index: 80;
+	height: 65px;
+	color: #fff;
+	background: url('../img/bg-logo.jpg');
+	border-right: 2px solid #fff;
+}
+
+#webtitle h1 {
+	font: normal 0.8em "helvetica" helvetica;
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+	padding-right: 10px;
+}
+
+#webtitle a h1 {
+	color: #FF8800;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+#webtitle a:hover h1 {
+	color: #fff;
+}
+
+label {
+	font-size: 20px;
+	color: #fff;
+}
+
+form {
+	width: 500px; /* --CSS3 -define rounded corners for the form --*/
+border-radius: 10px; /* --CSS3 -create a background graident --*/
+background: -webkit-gradient(linear, 0% 0%, 0% 40%, from(#EEE), to(#FFFFFF));
+
+	background: -webkit-linear-gradient(0% 40% 90deg,#FFF, #EEE);
+	background: -moz-linear-gradient(0% 40% 90deg,#FFF, #EEE);
+	background: -o-linear-gradient(0% 40% 90deg,#FFF, #EEE);
+	background: -ms-linear-gradient(0% 40% 90deg,#FFF, #EEE);
+	background: linear-gradient(0% 40% 90deg,#FFF, #EEE); /* --CSS3 -add a drop shadow --*/
+
+-webkit-box-shadow: 0px 0 50px #ccc;
+	box-shadow: 0px 0 50px #ccc;
+}
+
+fieldset {
+	border: none;
+}
+
+#user-details {
+	float: left;
+	width: 230px;
+}
+
+#user-message {
+	float: left;
+	width: 405px;
+}
+
+input,textarea {
+	padding: 8px;
+	margin: 4px 0 20px 0;
+	background: #fff;
+	width: 220px;
+	font-size: 14px;
+	color: #555;
+	border: 1px #ddd solid; /* --CSS3 Shadow -create a shadow around each input element --*/
+
+-webkit-box-shadow: 0px 0px 4px #aaa;
+	box-shadow: 0px 0px 4px #aaa; /* --CSS3 Transition -define what the transition will be applied to (i.e. the background) --*/
+
+-webkit-transition: background 0.3s linear;
+	-moz-transition: background 0.3s linear;
+	-o-transition: background 0.3s linear;
+	-ms-transition: background 0.3s linear;
+	transition: background 0.3s linear;
+}
+
+textarea {
+	width: 390px;
+	height: 175px;
+}
+
+input:hover,textarea:hover,.read-more {
+	background: #eee;
+}
+
+input.submit {
+	width: 150px;
+	color: #eee;
+	text-transform: uppercase;
+	margin-top: 10px;
+	background-color: #FF8800;
+	border: none; /* --CSS3 Transition -define which property to animate (i.e. the shadow)  --*/
+
+-webkit-transition: -webkit-box-shadow 0.3s linear;
+	-moz-transition: -moz-box-shadow 0.3s linear;
+	-o-transition: box-shadow 0.3s linear;
+	-ms-transition: box-shadow 0.3s linear;
+	transition: box-shadow 0.3s linear; /* --CSS3 -Rounded Corners --*/
+border-radius: 4px; /* --CSS3 Shadow -create a shadow around each input element --*/
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF8800), to(#FC9F35));
+
+	background: -webkit-linear-gradient(25% 75% 90deg,#FF8800, #FC9F35);
+	background: -moz-linear-gradient(25% 75% 90deg,#FF8800, #FC9F35);
+	background: -o-linear-gradient(25% 75% 90deg,#FF8800, #FC9F35);
+	background: -ms-linear-gradient(25% 75% 90deg,#FF8800, #FC9F35);
+	background: linear-gradient(25% 75% 90deg,#FF8800, #FC9F35);
+}
+
+input.submit:hover {
+	-webkit-box-shadow: 0px 0px 20px #555;
+	box-shadow: 0px 0px 20px #555;
+	cursor: pointer;
+}
+
+.read-more {
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
+	color: #eee;
+	position: absolute;
+	left: 115px;
+	bottom: 10px;
+	width: 100px;
+	background-color: #FF8800;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.read-more:visited {
+	color: #eee;
+	cursor: pointer;
+}
+
+.read-more:hover {
+	background-color: #eee;
+	color: #FF8800;
+}
+
+.read-less {
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
+	color: #eee;
+	position: absolute;
+	top: 20px;
+	right: 14px;
+	width: 100px;
+	background-color: #FF8800;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 4px;
+
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+}
+
+.read-less:visited {
+	color: #eee;
+	cursor: pointer;
+}
+
+.read-less:hover {
+	background-color: #eee;
+	color: #FF8800;
+}
+
+figure img {
+	width: 100px;
+	height: 100px;
+}
+
+/* Post thumbnail and images */
+figure {
+	background: #f4f4f4;
+	border: 2px solid #cecdcd;
+	border-radius: 3px 5px 5px 5px;
+	float: left;
+	padding: 10px;
+	text-align: center;
+
+	-webkit-transition: border 200ms ease;
+	-moz-transition: border 200ms ease;
+	-o-transition: border 200ms ease;
+	-ms-transition: border 200ms ease;
+	transition: border 200ms ease; /**/
+}
+
+figure:hover {
+	border: 2px solid #FF8800;
+}
+
+figure,figure.alignleft {
+	margin: 0 20px 20px 0;
+}
+
+figure.alignright {
+	margin: 0 0 20px 20px;
+}
+
+figure {
+	margin-left: -40px;
+}
+
+figcaption {
+	margin: 10px 0;
+	font: 14px 'Droid Serif', Georgia, serif;
+	color: #555;
+	text-align: center;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/* Thumbnail rotation */
+/*.thumbnail,
+.post:nth-of-type(2n) .thumbnail:hover  {
+	
+
+-webkit-transform:  rotate(0.45deg);
+	
+-moz-transform:  rotate(0.45deg);
+	
+-o-transform:  rotate(0.45deg);
+	
+-ms-transform:  rotate(0.45deg);
+	
+transform:  rotate(0.45deg);
+	
+
+
+}
+
+.thumbnail: hover,
+.post:nth-of-type(2n) .thumbnail  {
+	
+
+-webkit-transform:  rotate(-0.45deg);
+	
+-moz-transform:  rotate(-0.45deg);
+	
+-o-transform:  rotate(-0.45deg);
+	
+-ms-transform:  rotate(-0.45deg);
+	
+transform:  rotate(-0.45deg);
+	
+
+
+}
+
+*/
+input,textarea {
+	@include transition(all 0.30s ease-in-out);
+	 border: 1px solid #FF8800;
+}
+
+input:focus,textarea:focus {
+	@include box-shadow(0 0 5px rgba(227, 0, 91, 1));
+	 border: 1px solid rgba(255, 136, 100, 2);
+}
+
+#notfound {
+	color: #fff;
+}
+
+.navigation .current {
+	color: #fff;
+}
+
+@-moz-document url-prefix() { 
+  .selector {
+     color:lime;
+  }
+
+  .navigation
+  {
+  	font-size: 0.85em;
+  }
+}
+
+
+/*===================
+Portfolio css
+====================*/
+
